@@ -1,0 +1,21 @@
+{
+  "name": "textnodewrapper",
+  "version": "0.0.1",
+  "description": "A JavaScript library for wrapping each character of text nodes within a specified HTML element",
+  "main": "./build/index.js",
+  "scripts": {
+    "start": "npm run dev"
+  },
+  "keywords": [
+    "text",
+    "node",
+    "wrapper",
+    "textnodewrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EvegeniyNekrasov/TextNodeWrapper"
+  },
+  "author": "Evgeniy A. Nekrasov",
+  "license": "MIT"
+}
