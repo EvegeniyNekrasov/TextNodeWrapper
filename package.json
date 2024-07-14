@@ -4,7 +4,9 @@
   "description": "A JavaScript library for wrapping each character of text nodes within a specified HTML element",
   "main": "./build/index.js",
   "scripts": {
-    "start": "npm run dev"
+    "start": "npm run dev",
+    "eslint": "npx eslint src",
+    "eslint-fix": "npx eslint src --fix"
   },
   "keywords": [
     "text",
@@ -17,5 +19,15 @@
     "url": "https://github.com/EvegeniyNekrasov/TextNodeWrapper"
   },
   "author": "Evgeniy A. Nekrasov",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^9.7.0"
+  },
+  "volta": {
+    "node": "20.15.1",
+    "npm": "10.7.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-sonarjs": "^1.0.3"
+  }
 }
